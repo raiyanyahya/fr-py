@@ -1,5 +1,5 @@
 from debian:11
-
+LABEL maintainer="Raiyan Yahya <raiyanyahyadeveloper@gmail.com>"
 RUN apt update -y && apt-get update -y && apt-get install --no-install-recommends -y python3-pip sudo git curl zsh wget nano lsof && \
         rm -rf /var/lib/apt/lists/* && \
 	      apt-get clean && \
