@@ -1,2 +1,2 @@
-# fr-py
+# py
 A freshenv flavour for python development.
